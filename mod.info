@@ -3,3 +3,7 @@ poster=poster.png
 id=Silencer
 description=Craft door knobs with matching keys
 url=http://undeniable.info/pz/LockCraftingMod.php
+
+modversion=1.0.0
+# pzversion=34.28
+# versionurl=https://raw.githubusercontent.com/tst2005/pz-lockcrafting/master/mod.info
