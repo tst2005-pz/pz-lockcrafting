@@ -1,0 +1,33 @@
+module LockCrafting
+{
+	imports
+	{
+		Base
+	}
+
+
+	recipe Alter Doorknob to Match Key
+    {
+    	destroy Screwdriver,
+		keep Doorknob,
+		keep Key1/Key2/Key3/Key4/Key5,
+    	Result:Screwdriver,
+    	Category:LockCrafting,
+		OnCreate:matchDoorknobtoKey,
+    	Time:500.0,
+    }
+	recipe Alter Key to Match Doorknob
+    {
+    	destroy Screwdriver,
+		keep Doorknob,
+		keep Key1/Key2/Key3/Key4/Key5,
+    	Result:Screwdriver,
+    	Category:LockCrafting,
+		OnCreate:matchKeytoDoorknob,
+    	Time:500.0,
+    }
+	
+	
+	
+
+}
